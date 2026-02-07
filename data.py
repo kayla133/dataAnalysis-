@@ -1,7 +1,7 @@
 import pandas as pd
 
 def load_and_clean_data():
-    df = pd.read_csv('MCdataAnalysis/f1_data.csv')
+    df = pd.read_csv('f1_data.csv')
     df.head()
 
     # removes weird characters or spaces.
